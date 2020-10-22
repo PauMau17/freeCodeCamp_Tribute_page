@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    display: grid;
+    padding: 0;
+}
+
+#title {
+    color: #BB187D;
+    text-align: center;
+    font-size: 3em;
+}
+
+#img-div {
+    padding: 10px;
+    text-align: center;
+}
+
+#tribute-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px 10px;
+}
+
+section {
+    font-family: arial;
+    text-align: center;
+    font-size: 18px;
+    color: #690973;
+    margin: 20px;
+    padding: 55px;
+    background-color: #FAFC68;
+    border-radius: 25px;
+}
+
+h2 {
+    color: #BB187D;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#img-div {
+    border: solid 3px gold;
+    margin-left: 23%;
+    margin-right: 23%;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
